@@ -18,7 +18,7 @@ app.use(upload({
 // מבטל אבטחה , ומאפשר לבצע בקשת איי פי איי מדומיין משרת אחר
 
 app.use(cors({
-    origin:'https://project4-slll.onrender.com',
+    origin:'https://relomatchfront.onrender.com',
     credentials:true
 }));
 
